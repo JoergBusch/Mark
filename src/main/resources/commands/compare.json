@@ -1,0 +1,42 @@
+{
+    "name": "compare",
+    "description": "Compares players by winrate",
+    "options": [
+        {
+            "name": "name1",
+            "description": "Summoner 1",
+            "type": 3,
+            "required": true
+        },      
+        {
+            "name": "name2",
+            "description": "Summoner 2",
+            "type": 3,
+            "required": true
+        },      
+        {
+            "name": "name3",
+            "description": "Summoner 3",
+            "type": 3,
+            "required": false
+        },      
+        {
+            "name": "name4",
+            "description": "Summoner 4",
+            "type": 3,
+            "required": false
+        },      
+        {
+            "name": "name5",
+            "description": "Summoner 5",
+            "type": 3,
+            "required": false
+        },      
+        {
+            "name": "name6",
+            "description": "Summoner 6",
+            "type": 3,
+            "required": false
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "recent",
+    "description": "Displays last weeks match history",
+    "options": [
+        {
+            "name": "name",
+            "description": "Summoner",
+            "type": 3,
+            "required": true
+        }
+    ]
+}
