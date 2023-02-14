@@ -8,7 +8,7 @@ League enthusiasts can display their recent match history encouraging them to ev
 Mark celebrates a hot streak with you and cheers you up after a couple of losses.
 
 To lighten up things, Mark can provide you you with some trivia about a Champion together with a random skin you might not know yet (and might wanna buy).
-There are some old one that still look great and have some hilarious splash arts.
+There are some old ones that still look great and have some hilarious splash arts.
 
 In upcoming versions Mark's goal is to further connect a small Discord community of LoL fans.
 
@@ -24,12 +24,12 @@ In upcoming versions Mark's goal is to further connect a small Discord community
 ### Installing
 
 * Create a Discord Application following [this](https://docs.discord4j.com/discord-application-tutorial)
-* Create a Riot Api Key following [this](https://developer.riotgames.com/docs/portal)
+* Create an Riot Api Key following [this](https://developer.riotgames.com/docs/portal)
 * Replace the Discord token and Riot api key in *SecretFile* with your personal token and key.
 
 ### Executing program
 
-* Build Gradle project and run the *shadowJar* task that creates a runnable jar file
+* Run the Gradle build task then run the *shadowJar* task to create a .jar file you can execute using
 
 ```
 java -jar mark-all.jar
@@ -37,7 +37,7 @@ java -jar mark-all.jar
 
 ## Help
 
-Instructions and help for the R4J and Discord4J library can be found in the respective repositories
+Instructions and help for the R4J and Discord4J library can be found in their respective repositories
 
 ## Authors
 
