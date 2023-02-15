@@ -12,3 +12,6 @@ bin/
 
 #Ignore SecretFile
 src/main/java/marc/utils/Secret.java
+
+#Ignore GGShield Cache
+.cache_ggshield
